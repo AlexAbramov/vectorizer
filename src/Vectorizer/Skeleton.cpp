@@ -8,6 +8,13 @@
 #include "Batch.h"
 #include "Param.h"
 
+/*
+
+Morphological Filtering theory: Image Processing in Java by Professor Douglas Lyon, Ph.D
+Website: https://www.docjava.com/book/ipij/ipij.htm
+
+*/
+
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////

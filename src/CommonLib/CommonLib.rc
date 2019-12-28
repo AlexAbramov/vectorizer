@@ -87,13 +87,13 @@ CAPTION "About"
 FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     LTEXT           "Product name",IDC_PRODNAME,50,9,131,8
-    LTEXT           "Copyright",IDC_COPYRIGHT,50,33,131,8
+    LTEXT           "Copyright",IDC_COPYRIGHT,7,57,174,8
     DEFPUSHBUTTON   "OK",IDOK,70,96,50,14,WS_GROUP
     LTEXT           "Version",IDC_VERSION,50,21,131,8
-    LTEXT           "url",IDC_URL,9,45,172,8,SS_NOTIFY
-    LTEXT           "email",IDC_EMAIL,9,57,172,8,SS_NOTIFY
-    CONTROL         IDB_LOGO,IDC_LOGO,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,9,9,32,32
-    LTEXT           "This program is distributed for free and you are licensed to use this software without any charge.",IDC_LICENSE,9,70,172,21
+    LTEXT           "url",IDC_URL,7,45,174,8,SS_NOTIFY
+    CONTROL         IDB_LOGO,IDC_LOGO,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,7,9,32,32
+    LTEXT           "This program is distributed for free and you are licensed to use this software without any charge.",IDC_LICENSE,7,70,174,21
+    LTEXT           "email",IDC_EMAIL,50,34,131,8,SS_NOTIFY
 END
 
 IDD_PROGRESS DIALOGEX 0, 0, 187, 50
@@ -116,6 +116,7 @@ BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
         RIGHTMARGIN, 181
+        VERTGUIDE, 7
         VERTGUIDE, 50
         VERTGUIDE, 181
         BOTTOMMARGIN, 91

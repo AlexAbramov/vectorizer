@@ -44,7 +44,7 @@ BOOL AboutDlg::OnInitDialog()
 	
 	// TODO: Add extra initialization here
 	GetDlgItem(IDC_PRODNAME)->SetWindowText(::AfxGetApp()->m_pszAppName);
-	GetDlgItem(IDC_COPYRIGHT)->SetWindowText("(C) 2008 Alexander Abramov");
+	GetDlgItem(IDC_COPYRIGHT)->SetWindowText("(C) 2008 Alexander Abramov, MIT license");
 	GetDlgItem(IDC_VERSION)->SetWindowText("Version 1.0.3");
 
 	CString s;
