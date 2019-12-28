@@ -7,14 +7,14 @@ Website: https://www.docjava.com/book/ipij/ipij.htm
 
 ## Features
 
-Works on Windows OS
-Supports different graphics formats: bmp, gif, jpeg, tiff, png, icon, wmf, emf, dxf, svg, vml. 
-Intuitive self-explanatory GUI 
-Can work as command line tool 
-Can work as Automation server 
-Drag and drop support 
-Optional vectorization, control over vectorization quality 
-Can vectorize both black-and-white and color images 
+- Works on Windows OS
+- Supports different graphics formats: bmp, gif, jpeg, tiff, png, icon, wmf, emf, dxf, svg, vml. 
+- Intuitive self-explanatory GUI 
+- Can work as command line tool 
+- Can work as Automation server 
+- Drag and drop support 
+- Optional vectorization, control over vectorization quality 
+- Can vectorize both black-and-white and color images 
 
 ## Development IDE
 Microsoft Visual C++ 2019
