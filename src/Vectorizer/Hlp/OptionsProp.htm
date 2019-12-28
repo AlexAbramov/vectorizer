@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title>Options</title>
+</head>
+
+<body>
+
+<p><a href="DocumentObject.htm">Document
+Object</a></p>
+<h3>Options</h3>
+<p>String like <i>&quot;/maxd=1.5 /cd&quot;</i> containing information about
+vectorization <a href="Options.htm">Options</a>. See <a href="Batch.htm">Batch
+mode</a> for details.</p>
+<p><b>Syntax VC</b></p>
+<p>BSTR Options</p>
+<p><b>Syntax VB</b></p>
+<p>Options As String</p>
+
+<p><b>Sample</b></p>
+<p><i>
+Private Sub Vectorize_Click()<br>
+vectorizerDoc.Open (App.Path + &quot;\Sample.bmp&quot;)<br>
+vectorizerDoc.Options = &quot;/maxd=2.5 /cd&quot;<br>
+vectorizerDoc.Vectorize<br>
+vectorizerDoc.Save (App.Path + &quot;\VectorizedSample.dxf&quot;)<br>
+End Sub<br>
+</i></p>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+20	- maxLineWidth
+1000	- maxNPolylines
+3	- minGapSize
+0.30	- minAngle
+20	- step
+120	- bigStep
+0.80	- wGo
+0.40	- wGap
+0.70	- wWidth
+FFFFFF	- bgColor
+36	- nDirections
+20	- segmentLengthFilter
+2	- minNPointsFilter
+40	- maxNPointsFilter

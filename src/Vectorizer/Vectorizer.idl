@@ -1,0 +1,33 @@
+[ uuid(99D81B0E-4A29-4AD1-9F1A-4F2665037770), version(1.0) ]
+library GMVectorizer
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CVectorizerDoc
+	
+	[ uuid(EB9B775A-285D-483E-9285-E41EF4C5E257) ]
+	dispinterface IVectorizer
+	{
+		properties:
+			
+		methods:
+
+		[id(1), helpstring("method Open")] VARIANT_BOOL Open(BSTR pathName);
+		[id(2), helpstring("method Save")] VARIANT_BOOL Save(BSTR pathName);
+		[id(3), helpstring("method Vectorize")] VARIANT_BOOL Vectorize(void);
+		[id(4), helpstring("method SetOptions")] VARIANT_BOOL SetOptions(BSTR options);
+		[id(5), helpstring("method GetOptions")] BSTR GetOptions(void);
+		[id(6), helpstring("method GetVersion")] BSTR GetVersion(void);
+	};
+
+	//  Class information for CVectorizerDoc
+	
+	[ uuid(F80991C4-3072-4D55-B40B-FC9DAB59D9BD) ]
+	coclass Document
+	{
+		[default] dispinterface IVectorizer;
+	};
+
+};

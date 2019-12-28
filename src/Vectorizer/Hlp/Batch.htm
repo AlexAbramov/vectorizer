@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<title>Batch mode</title>
+</head>
+
+<body>
+<h3>Batch mode</h3>
+
+<p>You may work with the program by using the command string:</p>
+
+<p><i>GMVectorizer.exe sourceImageFile [options]</i></p>
+
+<p>sourceImageFile - an image file, the supported graphics formats are: bmp,
+gif, jpeg, tiff, png, icon, wmf, emf.</p>
+
+<p>See the list of possible options in the topic <a href="Options.htm">Vectorization
+Options</a>. Besides it includes:</p>
+
+<p><i>/out=outputVectorFile</i> - defines the file name to store the results of
+the vectorization process, extention of the file should be one of: dxf, svg,
+vml, htm.</p>
+
+<p>You may create one batch file to vectorize a number of files with
+individual options at once.</p>
+
+<p><b>Sample</b></p>
+
+<p>VectorizeAll.bat</p>
+
+<p><i>GMVectorizer Raster1.bmp /out=VectorizedRaster1.dxf<br>
+GMVectorizer Raster2.gif /out=VectorizedRaster2.svg /maxd=2.5 /cd</i></p>
+
+</body>
+</html>

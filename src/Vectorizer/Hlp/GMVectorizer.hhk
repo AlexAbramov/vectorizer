@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Uninstall">
+		<param name="Name" value="Installation">
+		<param name="Local" value="Installation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Automation">
+		<param name="Name" value="Programming reference">
+		<param name="Local" value="ProgrammingReference.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Open">
+		<param name="Name" value="Open">
+		<param name="Local" value="Open.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Save">
+		<param name="Name" value="Save">
+		<param name="Local" value="Save.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Options">
+		<param name="Name" value="Options">
+		<param name="Local" value="OptionsProp.htm">
+		<param name="Name" value="Vectorization Options">
+		<param name="Local" value="Options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Usage">
+		<param name="Name" value="Usage">
+		<param name="Local" value="Usage.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vectorize">
+		<param name="Name" value="Vectorize">
+		<param name="Local" value="Vectorize.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="About">
+		<param name="Name" value="Geomethod Vectorizer">
+		<param name="Local" value="GMVectorizer.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Installation">
+		<param name="Name" value="Installation">
+		<param name="Local" value="Installation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menu">
+		<param name="Name" value="Menu commands and buttons">
+		<param name="Local" value="MenuCommandsAndButtons.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Version">
+		<param name="Name" value="Version">
+		<param name="Local" value="Version.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Batch">
+		<param name="Name" value="Batch mode">
+		<param name="Local" value="Batch.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

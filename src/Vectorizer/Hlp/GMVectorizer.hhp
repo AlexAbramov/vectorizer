@@ -1,0 +1,64 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\GMVectorizer.chm
+Contents file=GMVectorizer.hhc
+Default topic=GMVectorizer.htm
+Display compile progress=Yes
+Full-text search=Yes
+Index file=GMVectorizer.hhk
+Language=0x409 English (United States)
+Title=Geomethod Vectorizer
+
+[FILES]
+Version.htm
+DocumentObject.htm
+Installation.htm
+MenuCommandsAndButtons.htm
+Open.htm
+Options.htm
+OptionsProp.htm
+ProgrammingReference.htm
+Save.htm
+Usage.htm
+Vectorize.htm
+GMVectorizer.htm
+Batch.htm
+
+[ALIAS]
+hid_app_about = MenuCommandsAndButtons.htm
+hid_app_exit = MenuCommandsAndButtons.htm
+hid_context_help = MenuCommandsAndButtons.htm
+hid_file_open = MenuCommandsAndButtons.htm
+hid_file_save = MenuCommandsAndButtons.htm
+hid_file_save_as = MenuCommandsAndButtons.htm
+HID_FILE_PRINT_SETUP = MenuCommandsAndButtons.htm
+HID_FILE_PRINT = MenuCommandsAndButtons.htm
+HID_FILE_PRINT_PREVIEW = MenuCommandsAndButtons.htm
+HID_FILE_MRU_FILE1 =  MenuCommandsAndButtons.htm
+HID_FILE_RECENTFILES = MenuCommandsAndButtons.htm
+hid_view_status_bar = MenuCommandsAndButtons.htm
+hid_view_toolbar = MenuCommandsAndButtons.htm
+HID_VIEW_ZOOMIN = MenuCommandsAndButtons.htm
+HID_VIEW_ZOOMOUT = MenuCommandsAndButtons.htm
+HID_VIEW_RASTER = MenuCommandsAndButtons.htm
+HID_VIEW_VECTOR = MenuCommandsAndButtons.htm
+HID_VIEW_FITIMAGE = MenuCommandsAndButtons.htm
+HID_OPTIONS=Options.htm
+HID_PROPPAGE=Options.htm
+HID_PROPPAGE1=Options.htm
+hid_help_finder = MenuCommandsAndButtons.htm
+HID_HELP_HELP = MenuCommandsAndButtons.htm
+HID_VECTORIZE = MenuCommandsAndButtons.htm
+HIDD_PROPPAGE = Options.htm
+AFX_HIDW_TOOLBAR = MenuCommandsAndButtons.htm
+HIDR_MAINFRAME = GMVectorizer.htm
+AFX_HIDW_STATUS_BAR = GMVectorizer.htm
+
+[MAP]
+#include HTMLDefines.h
+
+[TEXT POPUPS]
+HTMLDefines.h
+
+[INFOTYPES]
+

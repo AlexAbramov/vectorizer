@@ -1,0 +1,14 @@
+#define IDS_SITE                        901
+#define IDS_SUPPORTEMAIL                902
+#define IDS_REGSITE                     903
+#define IDS_RESTARTPROGRAM              904
+#define IDS_PROFILEWRITEERROR           905
+#define IDS_EMAIL                       906
+#define IDS_WMIPROBLEM                  907
+#define IDD_REGISTRATION                908
+#define IDD_ERRORREPORT                 909
+#define IDC_ER_EDIT1                    910
+#define IDC_REGSITE                     911
+#define IDC_ER_EDIT2                    912
+#define IDC_KEY                         913
+#define IDC_REGNUM                      915

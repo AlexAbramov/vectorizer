@@ -1,0 +1,124 @@
+<html>
+
+<head>
+<title>Vectorization Options</title>
+</head>
+
+<body>
+<h3>Vectorization Options</h3>
+
+<h3>General</h3>
+
+<table border="1" width="103%" height="467">
+  <tr>
+    <td width="29%" height="22"><b>Option</b></td>
+    <td width="20%" height="22"><b><a href="Batch.htm">Batch command</a></b></td>
+    <td width="132%" colspan="3" height="22"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td width="181%" colspan="5" height="21">
+      <p align="left"><font color="#0000FF"><i>Transform Method</i></font></td>
+  </tr>
+  <tr>
+    <td width="29%" height="42">Center lines</td>
+    <td width="20%" height="42">/cl</td>
+    <td width="132%" colspan="3" height="42"> <img border="0" src="cl.gif" width="71" height="39" align="right">Vectorized line is placed in the center of raster line.
+      It's default option.</td>
+  </tr>
+  <tr>
+    <td width="29%" height="39">Inside contour</td>
+    <td width="20%" height="39">/ic</td>
+    <td width="132%" colspan="3" height="39"><img border="0" src="ic.gif" width="71" height="39" align="right">Vectorized line is placed at the
+      inside contour of raster
+      object.</td>
+  </tr>
+  <tr>
+    <td width="29%" height="39">Outside contour</td>
+    <td width="20%" height="39">/oc</td>
+    <td width="132%" colspan="3" height="39"><img border="0" src="oc.gif" width="71" height="39" align="right">Vectorized line is placed at the
+      outside contour of raster
+      object.</td>
+  </tr>
+  <tr>
+    <td width="181%" colspan="5" height="21"><font color="#0000FF"><i>Line merging</i></font></td>
+  </tr>
+  <tr>
+    <td width="29%" rowspan="2" height="85">Merge factor</td>
+    <td width="20%" rowspan="2" height="85">/mf=floatValue</td>
+    <td width="92%" rowspan="2" height="85">
+      <p align="left">Enables to merge lines into one. The merge factor defines
+      how big can be gaps between line segments comparatively its length. If you
+      want to disable line merging set zero value.</p>
+    </td>
+    <td width="32%" height="38">
+      <p align="left">Before
+      merging</p>
+    </td>
+    <td width="13%" height="38"><img border="0" src="BeforeMerging.gif" align="right" width="71" height="39"></td>
+  </tr>
+  <tr>
+    <td width="32%" height="41">
+      <p align="left">After
+      merging</p>
+    </td>
+    <td width="13%" height="41"><img border="0" src="AfterMerging.gif" align="right" width="71" height="39"></td>
+  </tr>
+  <tr>
+    <td width="29%" height="21">Merge deflection</td>
+    <td width="20%" height="21">/maxmd=floatValue</td>
+    <td width="132%" colspan="3" height="21">Defines maximal deflection for merging.</td>
+  </tr>
+  <tr>
+    <td width="29%" height="21">Maximal gap length</td>
+    <td width="20%" height="21">/maxgl=intValue</td>
+    <td width="132%" colspan="3" height="21">Merges lines if the gap length is less than the
+      selected value.</td>
+  </tr>
+  <tr>
+    <td width="181%" colspan="5" height="21">
+      <p align="left"><i><font color="#0000FF">Vectorization</font></i></td>
+  </tr>
+  <tr>
+    <td width="29%" height="21">Maximal deflection</td>
+    <td width="20%" height="21">/maxd=floatValue</td>
+    <td width="132%" colspan="3" height="21">Defines maximal deflection of vectorized lines
+      from raster ones.</td>
+  </tr>
+  <tr>
+    <td width="29%" height="42">Color detection&nbsp;</td>
+    <td width="20%" height="42">/cd</td>
+    <td width="132%" colspan="3" height="42">Enables color-sensitive vectorization process.
+      Otherwise the picture is considered as black and white.</td>
+  </tr>
+</table>
+
+<h3>Filter</h3>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="29%">Max spot area</td>
+    <td width="20%">/maxsa=intValue</td>
+    <td width="132%">Doesn't vectorize raster objects with area (number of
+      pixels) less than the value.</td>
+  </tr>
+  <tr>
+    <td width="29%">Min polyline length&nbsp;</td>
+    <td width="20%">/minpl=intValue</td>
+    <td width="132%">Excludes polylines with length less than the selected
+      value.</td>
+  </tr>
+  <tr>
+    <td width="29%">Max polyline length</td>
+    <td width="20%">/maxpl=intValue</td>
+    <td width="132%">Excludes polylines with length more than the selected
+      value.</td>
+  </tr>
+</table>
+
+<p>floatValue - a value with float point;<br>
+intValue - an integer value. </p>
+
+<p>All measure units are pixels. </p>
+
+</body>
+</html>

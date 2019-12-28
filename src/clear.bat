@@ -1,0 +1,11 @@
+erase /S *.ilk
+erase /S *.obj
+erase /S *.idb
+erase /S *.pch
+erase /S *.pdb
+erase /S *.sbr
+erase /S *.bsc
+erase /S *.tmp
+erase /S *.ncb
+erase /S *.aps
+erase /S *.clw
